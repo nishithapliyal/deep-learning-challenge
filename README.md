@@ -12,10 +12,10 @@
 
 ### Compiling, Training, and Evaluating the Model
 
-- For the first neural network created, I created two hidden layers, one with 80 neurons and the other with 30 neurons. The relu activation function was used for both layers. For the subsequent neural networks created in the effort to increase accuracy, the number of neurons were adjusted, another hidden layer was added to one of them, and activation functions were varied.  
-How many neurons, layers, and activation functions did you select for your neural network model, and why?
-Were you able to achieve the target model performance?
-What steps did you take in your attempts to increase model performance?
+- For the first neural network created, I created two hidden layers, one with 80 neurons and the other with 30 neurons. The relu activation function was used for both layers. For the subsequent neural networks created in the effort to increase accuracy, the number of neurons were adjusted, another hidden layer was added to one of them, and activation functions were varied. I chose the number of neurons based on what I have learned in class. I used the relu and tanh activation functions based on what I learned in class.
+- I was not able to reach the target model performance of a 75% accuracy. The highest accuracy model I achieved was about 73% accurate.
+- To increase model performance, I changed the number of neurons for each hidden layer, added another hidden layer, changed activation functions, and dropped one feature from the dataset. I also changed the number of epochs for some of the models.
 
 
-3. Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
+3. Summary:
+- The deep learning model achieved an accuracy of about 73%. This means the model can accurately predict whether applicants will be successful 73% of the time. A different model that utilizes different activation functions and more hidden layers may be able to increase model accuracy. Binning the features differently may also create a more accurate classification model. 
