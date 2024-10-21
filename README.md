@@ -15,6 +15,8 @@
 ### Compiling, Training, and Evaluating the Model
 
 - For the first neural network created, I created two hidden layers, one with 80 neurons and the other with 30 neurons. The relu activation function was used for both layers. For the subsequent neural networks created in the effort to increase accuracy, the number of neurons were adjusted, another hidden layer was added to one of them, and activation functions were varied. I chose the number of neurons based on what I have learned in class. I used the relu and tanh activation functions based on what I learned in class.
+
+  ![model](https://github.com/nishithapliyal/deep-learning-challenge/blob/main/Screenshot%202024-10-20%20at%209.42.41%20PM.png)
 - I was not able to reach the target model performance of a 75% accuracy. The highest accuracy model I achieved was about 73% accurate.
 - To increase model performance, I changed the number of neurons for each hidden layer, added another hidden layer, changed activation functions, and dropped one feature from the dataset. I also changed the number of epochs for some of the models.
 
