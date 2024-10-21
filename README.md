@@ -8,7 +8,7 @@
 
 - The target variable is the "IS_SUCCESSFUL" column - which indicates whether the money was used effectively.
 - For the first model made in the "Starter_Code.ipynb" notebook, the variables used as features included: application type, affiliation, classification, use case, organization, status, income amount, special considerations and ask amount. For the three models that were made in the "AlphabetSoupCharity_Optimization.ipynb" file, the variables used as features included all that were formerly mentioned, except for the "special considerations" feature. This feature was omitted for the 3 models in the effort of increasing model accuracy.
-  ![model features]([Screenshot 2024-10-20 at 9.36.50 PM.png](https://github.com/nishithapliyal/deep-learning-challenge/blob/main/Screenshot%202024-10-20%20at%209.36.50%20PM.png)
+  ![model features]([Screenshot 2024-10-20 at 9.36.50 PM.png](https://github.com/nishithapliyal/deep-learning-challenge/blob/main/Screenshot%202024-10-20%20at%209.36.50%20PM.png))
 - The variables that were removed from the input data were the "EIN" and "NAME" columns because these served as identification columns that were neither targets nor features in the model.  
 
 ### Compiling, Training, and Evaluating the Model
